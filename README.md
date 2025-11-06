@@ -1,8 +1,11 @@
 # Taller Final IA: OCR + LLM
 
 **Curso:** Inteligencia Artificial
+
 **Universidad:** EAFIT
+
 **Profesor:** Jorge Padilla
+
 **Integrantes del Grupo**
 
 - Juan Pablo Duque
