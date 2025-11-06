@@ -50,3 +50,9 @@ El taller sugería usar la **API de Inferencia** de Hugging Face (`InferenceClie
 ### 2. Faltante: Control de `max_tokens`
 El taller solicitaba un control interactivo de los parámetros `temperature` y `max_tokens`.
 * **Lo implementado:** Solo se incluyó el control de `temperature`. En su lugar, se añadió un *slider* para limitar el "Máx. caracteres a analizar" (controlando la longitud de la **entrada**), en lugar del `max_tokens` (que controla la longitud de la **salida**).
+
+---
+
+## Nota de Estabilidad y Despliegue
+
+Debido al uso de modelos NLP grandes que se ejecutan localmente (Hugging Face) en la plataforma gratuita de Streamlit Cloud, la aplicación puede experimentar un tiempo de carga prolongado (o un error en el primer intento) después de un periodo de inactividad. **Si ocurre, por favor recargue la página (la app) una vez.** El proveedor GROQ está optimizado para la velocidad y ofrecerá la mejor experiencia.
